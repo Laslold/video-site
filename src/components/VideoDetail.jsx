@@ -38,20 +38,20 @@ const VideoDetail = () => {
               controls
             />
 
-            <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>
+            <Typography color="#000" variant="h5" fontWeight="bold" p={2}>
               {title}
             </Typography>
             <Stack
               direction="row"
               justifyContent="space-between"
-              sx={{ color: "#fff" }}
+              sx={{ color: "#000" }}
               py={1}
               px={2}
             >
               <Link to={`/channel/${channelId}`}>
                 <Typography
                   // variant={{ sm: "subtitle1", md: "h6" }}
-                  color="#fff"
+                  color="#000"
                 >
                   {channelTitle}
                 </Typography>
